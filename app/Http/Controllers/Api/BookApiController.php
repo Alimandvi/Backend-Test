@@ -46,7 +46,7 @@ class BookApiController extends Controller
     	if (!empty($data)) {
     		return response()->json([
     			'status' => true,
-    			'books-details' => $data
+    			'books_details' => $data
     		]);
     	} else {
     		return response()->json([
